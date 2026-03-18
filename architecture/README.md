@@ -30,8 +30,6 @@ The React frontend is a static SPA — it lives on S3 and is delivered globally 
 
 ## 1. Account structure
 
-**Cloud provider: AWS.** Chosen over GCP for its mature managed Kubernetes offering (EKS), broader ecosystem of managed services relevant to this stack (Aurora, Secrets Manager, CloudFront), and the team's existing familiarity. GCP GKE is an equally valid choice — the architectural patterns are identical.
-
 **4 AWS accounts via AWS Organizations.**
 
 ```
