@@ -1,0 +1,12 @@
+# Copy this file to terraform.tfvars and fill in your values.
+#
+# Get your current public IP:
+#   curl -s https://checkip.amazonaws.com
+#
+# Set allowed API access:
+allowed_cidr_blocks = ["YOUR_IP/32"]
+
+# Optional: IAM role or user ARN to grant developer (scoped) kubectl access.
+# When set, Terraform maps the principal to the Kubernetes 'developers' group.
+# developer_iam_arn = "arn:aws:iam::123456789012:role/developer-role"
+
