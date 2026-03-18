@@ -260,5 +260,5 @@ Security is layered — no single failure exposes the system:
 
 ## 6. Architecture diagram
 
-High-level diagram: `innovate_inc_architecture.png`
+<img width="1623" height="803" alt="innovate_inc_arch_updated drawio" src="https://github.com/user-attachments/assets/38cf4e62-9a0f-4954-95ea-be72a5ba2891" />
 
