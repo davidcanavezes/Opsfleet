@@ -41,7 +41,7 @@ terraform apply   # ~15 min
 ## 3. Connect kubectl
 
 ```bash
-$(terraform output -raw update_kubeconfig_command)
+$(terraform output -raw update_kubeconfig_command) ( ex : aws eks update-kubeconfig --region eu-central-1 --name opsfleet-eks )
 ```
 
 Verify nodes are ready:
