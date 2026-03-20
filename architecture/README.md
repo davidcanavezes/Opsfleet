@@ -224,11 +224,6 @@ Aurora Serverless v2 balances operational simplicity with autoscaling:
 | Frontend assets | S3 versioning | Last 10 versions |
 
 
-### Architecture
-<img width="1623" height="803" alt="innovate_inc_arch drawio" src="https://github.com/user-attachments/assets/d57084d6-46f8-43fa-bf11-216b5e4ec042" />
-
-
-
 ### HA and DR
 
 | Failure scenario | RPO | RTO | How |
